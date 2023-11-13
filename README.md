@@ -149,6 +149,16 @@ Implementa el método build, que devuelve la estructura de la interfaz de usuari
 
 Este archivo contiene el punto de entrada de la aplicación (main), que inicializa y ejecuta la aplicación Flutter.
 
+**Funcion main:**
+
+Define la función principal main, que se ejecutará al iniciar la aplicación. Dentro de esta función, se llama a runApp con una instancia del widget Myapp como argumento.
+```
+void main(){
+  runApp(const Myapp());
+}
+```
+
+
 ### Paso 5: Implementación de Myapp y WidPrincipal
 
 En el archivo main.dart, asegúrate de que Myapp utiliza WidPrincipal como su widget principal.
@@ -162,14 +172,7 @@ import 'package:flutter/material.dart';
 import 'package:appp1/front/principal.dart';
 ```
 
-**Funcion main:**
 
-Define la función principal main, que se ejecutará al iniciar la aplicación. Dentro de esta función, se llama a runApp con una instancia del widget Myapp como argumento.
-```
-void main(){
-  runApp(const Myapp());
-}
-```
 **Clase Myapp:**
 
 Define un widget de Flutter llamado Myapp que extiende StatelessWidget. Este widget se utiliza para configurar la aplicación a nivel global. Define un constructor para Myapp.
