@@ -218,15 +218,18 @@ Flutter run
 **Modelo:**
 
 En este caso específico, la aplicación no incluye una lógica de modelo compleja. 
+
 **Vista:**
 
 WidPrincipal y principal son los componentes visuales clave. WidPrincipal configura la apariencia general de la aplicación, 
 y principal representa la pantalla principal con una barra de aplicación y un botón flotante.
+
 **Controlador:**
 
 Para esta aplicación, el controlador sería responsable de manejar la lógica del botón flotante, como la creación de nuevos archivos, la edición y eliminacion de estos.
 
 ## Diagrama de Arquitectura (Conceptual):
+
 En el contexto de Flutter y dado que estamos tratando con una aplicación relativamente simple, la arquitectura no requiere capas demasiado complejas. 
 La comunicación entre las partes clave se gestiona principalmente a través de la jerarquía de widgets.
 
