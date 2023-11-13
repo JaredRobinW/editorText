@@ -56,6 +56,7 @@ import 'package:google_fonts/google_fonts.dart';
 ```
 
 **Clase WidPrincipal:**
+
 Define un widget de Flutter llamado WidPrincipal que extiende StatelessWidget.
 Este widget se utiliza para configurar la apariencia general de la aplicación.
 ```
@@ -188,7 +189,10 @@ Implementa el método build, que devuelve la estructura principal de la aplicaci
 ### Paso 6: Ejecutar la aplicación
 
 Guarda todos los archivos y ejecuta tu aplicación Flutter con el siguiente comando:
-`Flutter run`
+```
+Flutter run
+```
+
 
 # Arquitectura.
 
