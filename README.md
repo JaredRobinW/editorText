@@ -93,6 +93,7 @@ Implementa el método build, que devuelve la estructura principal de la aplicaci
 
 **Clase principal:**
 
+
 Define un widget de estado (StatefulWidget) llamado principal que tiene un estado mutable.
 
 ```
@@ -108,7 +109,8 @@ Implementa el método createState que devuelve una nueva instancia del estado _E
 }
 ```
 
-**Clase _EstadoP**
+**Clase _EstadoP:**
+
 
 Define la clase _EstadoP, que extiende State y gestiona el estado mutable de principal. Declara dos variables de estado.
 
