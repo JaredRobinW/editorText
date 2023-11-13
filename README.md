@@ -164,7 +164,6 @@ import 'package:appp1/front/principal.dart';
 
 **Funcion main:**
 
-
 Define la función principal main, que se ejecutará al iniciar la aplicación. Dentro de esta función, se llama a runApp con una instancia del widget Myapp como argumento.
 ```
 void main(){
@@ -172,7 +171,6 @@ void main(){
 }
 ```
 **Clase Myapp:**
-
 
 Define un widget de Flutter llamado Myapp que extiende StatelessWidget. Este widget se utiliza para configurar la aplicación a nivel global. Define un constructor para Myapp.
 
@@ -216,16 +214,13 @@ Flutter run
 ## Arquitectura de Software:
 
 **Modelo:**
-
 En este caso específico, la aplicación no incluye una lógica de modelo compleja. 
 
 **Vista:**
-
 WidPrincipal y principal son los componentes visuales clave. WidPrincipal configura la apariencia general de la aplicación, 
 y principal representa la pantalla principal con una barra de aplicación y un botón flotante.
 
 **Controlador:**
-
 Para esta aplicación, el controlador sería responsable de manejar la lógica del botón flotante, como la creación de nuevos archivos, la edición y eliminacion de estos.
 
 ## Diagrama de Arquitectura (Conceptual):
