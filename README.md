@@ -26,6 +26,9 @@ Una vez se ingresa a un archivo anteriormente creado o se crea uno nuevo, se ve 
 guardado en caso de este existir, en la parte inferior de la pestaña de texto se observan tres botones, el botón de guardado,
 el botón cerrar y finalmente el botón eliminar.
 
+<div align="center">
+<img src="https://github.com/JaredRobinW/editorText/blob/main/modelo2.png" alt="Diagrama de Arquitectura" width="200" />
+</div>
 
 # Implementación.
 
