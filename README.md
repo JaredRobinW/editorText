@@ -57,6 +57,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 **Clase WidPrincipal:**
 
+
 Define un widget de Flutter llamado WidPrincipal que extiende StatelessWidget.
 Este widget se utiliza para configurar la apariencia general de la aplicación.
 ```
