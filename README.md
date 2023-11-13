@@ -16,8 +16,13 @@ para que estos archivos puedan ser trabajados.
 
 Se busco un diseño lo más amigable posible con el usuario el cual cuenta con botones los cuales le permiten al usuario 
 realizar las distintas acciones disponibles en la aplicación. En la pantalla inicial se pueden observar una lista con los
-archivos anteriormente creados y en la parte superior un botón con el cual se crean nuevos archivos. Una vez se ingresa a un
-archivo anteriormente creado o se crea uno nuevo, se ve una pestaña que contiene el texto a ingresar y el texto anteriormente
+archivos anteriormente creados y en la parte superior un botón con el cual se crean nuevos archivos. 
+
+<div align="center">
+<img src="https://github.com/JaredRobinW/editorText/blob/main/modelo1.png" alt="Diagrama de Arquitectura" width="200" />
+</div>
+
+Una vez se ingresa a un archivo anteriormente creado o se crea uno nuevo, se ve una pestaña que contiene el texto a ingresar y el texto anteriormente
 guardado en caso de este existir, en la parte inferior de la pestaña de texto se observan tres botones, el botón de guardado,
 el botón cerrar y finalmente el botón eliminar.
 
