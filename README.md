@@ -37,10 +37,10 @@ carpeta correspondiente
 ### Paso 2: Creacion de un proyecto Flutter
 
 Abre la terminal y ejecuta los siguientes comandos:
-``
+```
 Flutter create <nombre_proyecto>
 cd nombre_proyecto
-``
+```
 
 ### Paso 3: Implementación de principal.dart
 
