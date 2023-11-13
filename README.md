@@ -14,6 +14,12 @@ para que estos archivos puedan ser trabajados.
 
 # Diseño.
 
+Se busco un diseño lo mas amigable posible con el usuario el cual cuenta con botones los cuales le permiten al usuario 
+realizar las distintas acciones diponibles en la aplicacion. En la pantalla inicial se pueden observar una lista con los
+archivos anteriormente creados y en la parte superior un boton con el cual se crean nuevos archivos. Una vez se ingresa a un
+archivo anteriormente creado o se crea uno nuevo, se ve una pestaña que contiene el texto a ingresar y el texto anteriormente
+guardado en caso de este existir, en la parte inferior de la pestada de texto se observan tres botones, el boton de guardado,
+el boton cerrar y finalmente el boton eliminar.
 
 
 # Implementación.
