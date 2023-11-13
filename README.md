@@ -231,7 +231,9 @@ En el contexto de Flutter y dado que estamos tratando con una aplicación relati
 La comunicación entre las partes clave se gestiona principalmente a través de la jerarquía de widgets.
 
 <img src="https://github.com/JaredRobinW/editorText/blob/main/Imagen1.png" alt="Diagrama de Arquitectura" width="200" style="display: block; margin: auto;"/>
-    En donde: 
+
+
+   En donde: 
     - **MyApp:** Punto de entrada principal de la aplicación que instancia WidPrincipal.
     - **WidPrincipal:** Configura la apariencia general de la aplicación y contiene el tema.
     - **Principal:** Representa la pantalla principal con la barra de aplicación y el botón flotante.
