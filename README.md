@@ -230,8 +230,8 @@ Para esta aplicación, el controlador sería responsable de manejar la lógica d
 En el contexto de Flutter y dado que estamos tratando con una aplicación relativamente simple, la arquitectura no requiere capas demasiado complejas. 
 La comunicación entre las partes clave se gestiona principalmente a través de la jerarquía de widgets.
 
-! [En donde: 
+![En donde: 
     - MyApp: Punto de entrada principal de la aplicación que instancia WidPrincipal.
     - WidPrincipal: Configura la apariencia general de la aplicación y contiene el tema.
-    - Principal: Representa la pantalla principal con la barra de aplicación y el botón flotante. ] (https://github.com/JaredRobinW/editorText/blob/main/Imagen1.png)
+    - Principal: Representa la pantalla principal con la barra de aplicación y el botón flotante. ](https://github.com/JaredRobinW/editorText/blob/main/Imagen1.png)
 
