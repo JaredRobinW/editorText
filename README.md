@@ -163,6 +163,8 @@ import 'package:appp1/front/principal.dart';
 ```
 
 **Funcion main:**
+
+
 Define la función principal main, que se ejecutará al iniciar la aplicación. Dentro de esta función, se llama a runApp con una instancia del widget Myapp como argumento.
 ```
 void main(){
@@ -170,6 +172,8 @@ void main(){
 }
 ```
 **Clase Myapp:**
+
+
 Define un widget de Flutter llamado Myapp que extiende StatelessWidget. Este widget se utiliza para configurar la aplicación a nivel global. Define un constructor para Myapp.
 
 ```
@@ -199,4 +203,13 @@ Flutter run
 
 # Arquitectura.
 
+**Estructura de archivos**
+
+- editorText
+  - lib/
+    - main.dart
+    - front
+      - crearAr.dart
+      - principal.dart
+  - README.md  
 
