@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
+import 'package:shared_preferences/shared_preferences.dart';
+
 
 
 
@@ -32,6 +34,7 @@ class WidPrincipal extends StatelessWidget{
 
 class principal extends StatefulWidget{
   const principal({super.key});
+  
 
   @override
   State<principal> createState() => _EstadoP();
@@ -43,6 +46,29 @@ class _EstadoP extends State<principal>{
   List <File> files = [];
 
   @override
+  void initState() {
+    super.initState();
+    _loadFiles();
+  }
+
+  Future<void> _loadFiles() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    List<String>? filePaths = prefs.getStringList('files');
+    if (filePaths != null) {
+      setState(() {
+        files = filePaths.map((path) => File(path)).toList();
+      });
+    }
+  }
+
+  Future<void> _saveFiles() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    List<String> filePaths = files.map((file) => file.path).toList();
+    prefs.setStringList('files', filePaths);
+  }
+
+
+  @override 
 
   Widget build(BuildContext context){
     return Scaffold(
@@ -69,7 +95,7 @@ class _EstadoP extends State<principal>{
               ),
             ),
               onPressed: () => _createFile(),
-              child: Text('Crear archivo')
+              child: const Text('Crear archivo')
           ),
           Expanded(child: ListView.builder(
             itemCount: files.length,
@@ -86,14 +112,15 @@ class _EstadoP extends State<principal>{
     );
   }
   Future<void> _createFile() async {
-    String fileName = 'Archivo ${DateTime.now().millisecondsSinceEpoch}.txt';
+    String fileName = 'Archivo_${DateTime.now().millisecondsSinceEpoch}.txt';
     File file = File('${(await getApplicationDocumentsDirectory()).path}/$fileName');
     await file.writeAsString('');
     setState(() {
       files.add(file);
     });
+    _saveFiles();
   }
-
+  
 
   Future<void> _openFileEditor(File file) async {
     String filePath = file.path;
@@ -177,4 +204,5 @@ class _EstadoP extends State<principal>{
       },
     );
   }
+ 
 }
