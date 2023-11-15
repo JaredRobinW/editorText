@@ -124,8 +124,8 @@ Define la clase _EstadoP, que extiende State y gestiona el estado mutable de pri
 
 ```
 class _EstadoP extends State<principal>{
-  int currentPageIndex = 0;
   int largeScreen = 700;
+  List <File> files = [];
 ```
 Implementa el método build, que devuelve la estructura de la interfaz de usuario para la pantalla principal.
 
@@ -220,7 +220,8 @@ Flutter run
     - front
       - crearAr.dart
       - principal.dart
-  - README.md  
+  - README.md
+  - pubspec.yml
 
 ## Arquitectura de Software:
 
